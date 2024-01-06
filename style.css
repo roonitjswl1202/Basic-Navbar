@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* color: white; */
+}
+
+.Navbar{
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: #3f9166;
+    display: flex;
+}
+
+.nav{
+    height: 100%;
+    width: 130px;
+    /* background-color: #85BDBF; */
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.nav:hover{
+    background-color: #4e9771;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.home{
+    height: 100%;
+    width: 110px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+}
+.home:hover{
+    background-color: #4e9771;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.feature{
+    height: 100%;
+    width: 110px;
+    margin-left: 5px;
+    /* background-color: #85BDBF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+}
+.feature:hover{
+    background-color: #4e9771;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.pricing{
+    height: 100%;
+    width: 110px;
+    margin-left: 5px;
+    /* background-color: #85BDBF; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+}
+.pricing:hover{
+    background-color: #4e9771;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.dropdown{
+    height: 100%;
+    width: 560px;
+    margin-left: 5px;
+    /* background-color: #85BDBF; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 600;
+    font-size: large;
+}
+.select-dropdown{
+    margin-left: 20px;
+    height: 80%;
+    width: 100px;
+    font-size: medium;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+}
+
+.search{
+    height: 100%;
+    width: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    /* border-bottom: 1px solid black; */
+    /* background-color: #85BDBF; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 400;
+    font-size: large;
+}
+input{
+    height: 75%;
+    width: 90%;
+    border: none;
+    border-bottom:1px solid black ;
+    font-size: large;
+    background: transparent;
+}
